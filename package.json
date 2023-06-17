@@ -1,8 +1,8 @@
 {
-  "name": "http-post",
+  "name": "littletiers",
   "version": "1.0.0",
-  "description": "users little application",
-  "main": "http.server.js",
+  "description": "little tiers",
+  "main": "http_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install",
