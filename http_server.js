@@ -10,6 +10,11 @@ const { faker } = require('@faker-js/faker');
 // allow cross-origin resource sharing (CORS)
 app.use(cors());
 
+app.get('/', (req, res) => {
+  // Handle the root path request
+  res.send('Hello, world!');
+});
+
 // data parser - used to parse post data
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
