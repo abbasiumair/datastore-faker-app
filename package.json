@@ -1,0 +1,21 @@
+{
+  "name": "http-post",
+  "version": "1.0.0",
+  "description": "users little application",
+  "main": "http.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umair",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "lowdb": "^1.0.0",
+    "superagent": "^8.0.9"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
